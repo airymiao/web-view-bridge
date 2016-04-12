@@ -1,0 +1,341 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4581BE971CBC948E007BE853 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4581BE961CBC948E007BE853 /* main.m */; };
+		4581BE9A1CBC948E007BE853 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4581BE991CBC948E007BE853 /* AppDelegate.m */; };
+		4581BE9D1CBC948E007BE853 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4581BE9C1CBC948E007BE853 /* ViewController.m */; };
+		4581BEA01CBC948E007BE853 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4581BE9E1CBC948E007BE853 /* Main.storyboard */; };
+		4581BEA21CBC948E007BE853 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4581BEA11CBC948E007BE853 /* Assets.xcassets */; };
+		4581BEA51CBC948E007BE853 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4581BEA31CBC948E007BE853 /* LaunchScreen.storyboard */; };
+		4581BEB51CBC94E5007BE853 /* WebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 4581BEAE1CBC94E5007BE853 /* WebViewJavascriptBridge.m */; };
+		4581BEB61CBC94E5007BE853 /* WebViewJavascriptBridge_JS.m in Sources */ = {isa = PBXBuildFile; fileRef = 4581BEB01CBC94E5007BE853 /* WebViewJavascriptBridge_JS.m */; };
+		4581BEB71CBC94E5007BE853 /* WebViewJavascriptBridgeBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 4581BEB21CBC94E5007BE853 /* WebViewJavascriptBridgeBase.m */; };
+		4581BEB81CBC94E5007BE853 /* WKWebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 4581BEB41CBC94E5007BE853 /* WKWebViewJavascriptBridge.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4581BE921CBC948E007BE853 /* MeowBridge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeowBridge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4581BE961CBC948E007BE853 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4581BE981CBC948E007BE853 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4581BE991CBC948E007BE853 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4581BE9B1CBC948E007BE853 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4581BE9C1CBC948E007BE853 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4581BE9F1CBC948E007BE853 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4581BEA11CBC948E007BE853 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4581BEA41CBC948E007BE853 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4581BEA61CBC948E007BE853 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4581BEAD1CBC94E5007BE853 /* WebViewJavascriptBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptBridge.h; sourceTree = "<group>"; };
+		4581BEAE1CBC94E5007BE853 /* WebViewJavascriptBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptBridge.m; sourceTree = "<group>"; };
+		4581BEAF1CBC94E5007BE853 /* WebViewJavascriptBridge_JS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptBridge_JS.h; sourceTree = "<group>"; };
+		4581BEB01CBC94E5007BE853 /* WebViewJavascriptBridge_JS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptBridge_JS.m; sourceTree = "<group>"; };
+		4581BEB11CBC94E5007BE853 /* WebViewJavascriptBridgeBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptBridgeBase.h; sourceTree = "<group>"; };
+		4581BEB21CBC94E5007BE853 /* WebViewJavascriptBridgeBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptBridgeBase.m; sourceTree = "<group>"; };
+		4581BEB31CBC94E5007BE853 /* WKWebViewJavascriptBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKWebViewJavascriptBridge.h; sourceTree = "<group>"; };
+		4581BEB41CBC94E5007BE853 /* WKWebViewJavascriptBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKWebViewJavascriptBridge.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4581BE8F1CBC948E007BE853 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4581BE891CBC948E007BE853 = {
+			isa = PBXGroup;
+			children = (
+				4581BE941CBC948E007BE853 /* MeowBridge */,
+				4581BE931CBC948E007BE853 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4581BE931CBC948E007BE853 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4581BE921CBC948E007BE853 /* MeowBridge.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4581BE941CBC948E007BE853 /* MeowBridge */ = {
+			isa = PBXGroup;
+			children = (
+				4581BEAC1CBC94E5007BE853 /* WebViewJavascriptBridge */,
+				4581BE981CBC948E007BE853 /* AppDelegate.h */,
+				4581BE991CBC948E007BE853 /* AppDelegate.m */,
+				4581BE9B1CBC948E007BE853 /* ViewController.h */,
+				4581BE9C1CBC948E007BE853 /* ViewController.m */,
+				4581BE9E1CBC948E007BE853 /* Main.storyboard */,
+				4581BEA11CBC948E007BE853 /* Assets.xcassets */,
+				4581BEA31CBC948E007BE853 /* LaunchScreen.storyboard */,
+				4581BEA61CBC948E007BE853 /* Info.plist */,
+				4581BE951CBC948E007BE853 /* Supporting Files */,
+			);
+			path = MeowBridge;
+			sourceTree = "<group>";
+		};
+		4581BE951CBC948E007BE853 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4581BE961CBC948E007BE853 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4581BEAC1CBC94E5007BE853 /* WebViewJavascriptBridge */ = {
+			isa = PBXGroup;
+			children = (
+				4581BEAD1CBC94E5007BE853 /* WebViewJavascriptBridge.h */,
+				4581BEAE1CBC94E5007BE853 /* WebViewJavascriptBridge.m */,
+				4581BEAF1CBC94E5007BE853 /* WebViewJavascriptBridge_JS.h */,
+				4581BEB01CBC94E5007BE853 /* WebViewJavascriptBridge_JS.m */,
+				4581BEB11CBC94E5007BE853 /* WebViewJavascriptBridgeBase.h */,
+				4581BEB21CBC94E5007BE853 /* WebViewJavascriptBridgeBase.m */,
+				4581BEB31CBC94E5007BE853 /* WKWebViewJavascriptBridge.h */,
+				4581BEB41CBC94E5007BE853 /* WKWebViewJavascriptBridge.m */,
+			);
+			path = WebViewJavascriptBridge;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4581BE911CBC948E007BE853 /* MeowBridge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4581BEA91CBC948E007BE853 /* Build configuration list for PBXNativeTarget "MeowBridge" */;
+			buildPhases = (
+				4581BE8E1CBC948E007BE853 /* Sources */,
+				4581BE8F1CBC948E007BE853 /* Frameworks */,
+				4581BE901CBC948E007BE853 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MeowBridge;
+			productName = MeowBridge;
+			productReference = 4581BE921CBC948E007BE853 /* MeowBridge.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4581BE8A1CBC948E007BE853 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = airymiao;
+				TargetAttributes = {
+					4581BE911CBC948E007BE853 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 4581BE8D1CBC948E007BE853 /* Build configuration list for PBXProject "MeowBridge" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4581BE891CBC948E007BE853;
+			productRefGroup = 4581BE931CBC948E007BE853 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4581BE911CBC948E007BE853 /* MeowBridge */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4581BE901CBC948E007BE853 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4581BEA51CBC948E007BE853 /* LaunchScreen.storyboard in Resources */,
+				4581BEA21CBC948E007BE853 /* Assets.xcassets in Resources */,
+				4581BEA01CBC948E007BE853 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4581BE8E1CBC948E007BE853 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4581BE9D1CBC948E007BE853 /* ViewController.m in Sources */,
+				4581BEB51CBC94E5007BE853 /* WebViewJavascriptBridge.m in Sources */,
+				4581BE9A1CBC948E007BE853 /* AppDelegate.m in Sources */,
+				4581BE971CBC948E007BE853 /* main.m in Sources */,
+				4581BEB71CBC94E5007BE853 /* WebViewJavascriptBridgeBase.m in Sources */,
+				4581BEB61CBC94E5007BE853 /* WebViewJavascriptBridge_JS.m in Sources */,
+				4581BEB81CBC94E5007BE853 /* WKWebViewJavascriptBridge.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4581BE9E1CBC948E007BE853 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4581BE9F1CBC948E007BE853 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4581BEA31CBC948E007BE853 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4581BEA41CBC948E007BE853 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4581BEA71CBC948E007BE853 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4581BEA81CBC948E007BE853 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4581BEAA1CBC948E007BE853 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MeowBridge/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.airymiao.MeowBridge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4581BEAB1CBC948E007BE853 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MeowBridge/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.airymiao.MeowBridge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4581BE8D1CBC948E007BE853 /* Build configuration list for PBXProject "MeowBridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4581BEA71CBC948E007BE853 /* Debug */,
+				4581BEA81CBC948E007BE853 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4581BEA91CBC948E007BE853 /* Build configuration list for PBXNativeTarget "MeowBridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4581BEAA1CBC948E007BE853 /* Debug */,
+				4581BEAB1CBC948E007BE853 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4581BE8A1CBC948E007BE853 /* Project object */;
+}
