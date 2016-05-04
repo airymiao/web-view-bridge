@@ -38,8 +38,12 @@ Open either the iOS or Android project,change `urlString` to match local IP addr
 
 #### iOS
 
-1. Drag the `WebViewJavascriptBridge` folder into your project,or install by CocoaPods(Recommend) `pod 'WebViewJavascriptBridge', '~> 5.0'`
+1. Drag the `WebViewJavascriptBridge` folder into your project,or install by CocoaPods(Recommend) 
 
+ ```
+  pod 'WebViewJavascriptBridge', '~> 5.0'
+ ```
+ 
 2. Initialize bridge
 
   ```
