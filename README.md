@@ -1,4 +1,4 @@
-#Web View Bridge
+#Meow Web View Bridge
 
 iOS & Android webView bridge for sending message based on [marcuswestin/WebViewJavascriptBridge](https://github.com/marcuswestin/WebViewJavascriptBridge)
 
